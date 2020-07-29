@@ -1,11 +1,11 @@
 package TestCase2;
 import org.junit.*;
 
-import static org.junit.Assert.*;
-import static org.junit.AfterClass.*;
-import static org.junit.After.*;
-import static org.junit.BeforeClass.*;
-import static org.junit.Before.*;
+import org.junit.jupiter.api.Test;
+
+//import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 public class Case2Test {
     @AfterClass
