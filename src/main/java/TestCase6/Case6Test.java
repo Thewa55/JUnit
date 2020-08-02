@@ -34,7 +34,7 @@ public class Case6Test {
         System.out.println("Inside Test1");
         assertAll(
                 () -> assertEquals(2, case6.add(1,1), "Doesn't add positive numbers up properly"),
-                () -> assertEquals(-2, case6.add(-1,-1), "Doesn't add negative numbers up properly")
+                () -> assertNotEquals(-3, case6.add(-1,-1), "Doesn't add negative numbers up properly")
         );
     }
 }
